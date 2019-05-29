@@ -29,7 +29,7 @@
 	
 	$arr=array(1,2,3,4,5);
 	end($arr);
-	while (TRUE) {
+	while (TRUE) {sdd
 		echo key($arr).'=>'.current($arr);
 		if(!prev($arr)){
 			break;
